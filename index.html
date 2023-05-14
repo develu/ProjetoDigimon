@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Projeto Digimon</title>
+    <style>
+        td {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Digimon</h2>
+
+    <button id="btn" onclick="buscar()">Buscar</button>
+    <hr>
+
+    <label for="id_pesquisar">Pesquisar Digimon: </label>
+
+    <input type="text" placeholder="Digite o nome do Digimon" id="id_pesquisar" /> <button id="btn_pesquisar"
+        onclick="btn_pesquisar_digimon()">Pesquisar</button>
+    <hr>
+    </br>
+
+    <table border="2" width="100%" id="id_table">
+        <tr>
+            <th>Nome</th>
+            <th>Level</th>
+            <th>Imagem</th>
+        </tr>
+        <tbody id="id_corpo_tabela">
+
+        </tbody>
+    </table>
+
+    <!---
+        x as list!-- aDigimon
+
+        <tr>
+            <td>lita.name</td>
+            <td>lista.level</td>
+            <td>lista.img</td>
+        </tr>  -->
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
